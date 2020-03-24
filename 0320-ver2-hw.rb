@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
-require 'calc.rb'
+require './calc.rb'
 
 get '/' do
   erb :index
